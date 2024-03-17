@@ -1,0 +1,132 @@
+:root {
+    --cor-primaria: #2c2c2c;
+    --cor-secundaria: #DFDDC5;
+    --cor-terciaria: #D88F32;
+    --cor-quaternaria: #f7f6e7;
+    --cor-forum: #EFF1E4;
+    --cor-houver: #455650;
+    --cor-houver-mouse: #1f5821;
+
+    --fonte-unica-titulo: "Playfair Display", serif;
+    --fonte-unica-texto: "Playfair Display", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fonte-unica-texto);
+    background-color: var(--cor-quaternaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    height: 100vh;
+}
+
+
+
+.cabecalho {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: var(--cor-terciaria);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 54px;
+    margin-right: 62px;
+}
+
+.cabecalho_menu_link {
+    font-family: var(--fonte-unica-texto);
+    font-weight: 300;
+    font-style: normal;
+    color: var(--cor-primaria);
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.cabecalho_menu_link:hover {
+    text-decoration: underline;
+    color: var(--cor-forum);
+}
+
+.cabecalho_menu_link_img {
+    width: 240px;
+    height: 45px;
+    padding-top: 4px;
+    padding-left: 25px;
+}
+
+
+.container {
+    background-color: var(--cor-forum);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+
+}
+
+.form {
+    font-family: var(--fonte-unica-texto);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+h2 {
+    color: var(--cor-terciaria);
+}
+
+label {
+    margin: 10px 0;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+button {
+    background-color: var(--cor-houver);
+    color: var(--cor-forum);
+    padding: 10px 150px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: var(--cor-houver-mouse);
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-houver);
+    text-align: center;
+    font-family: var(--fonte-unica-texto);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 8px 0;
+    margin-top: 90px;
+
+}
