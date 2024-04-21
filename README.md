@@ -1,3 +1,5 @@
+
+![logo_hamilton](https://github.com/GretzelKattia/noticia_geek/assets/146984390/03911ce4-6d9e-462e-9445-940064648308)
 # Notícias Geek - O Universo de Hamilton  
 
 Bem-vindo ao projeto "A Mim Minhas Notícias" - mergulhe no universo de "Hamilton"! 
